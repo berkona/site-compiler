@@ -14,4 +14,6 @@ watch-dir is a bash script written using inotify-tools that calls site-compiler 
 in a given directory. 
 
 EX:
->>> ./watch-dir ~/Documents/Notes/COMP410 will watch the directory '~/Documents/Notes/COMP410'
+> ./watch-dir ~/Documents/Notes/COMP410 
+
+will watch the directory '~/Documents/Notes/COMP410'
