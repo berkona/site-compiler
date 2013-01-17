@@ -1,0 +1,6 @@
+#! /bin/sh
+inotifywait -m --format '%f' -e modify -e move -e create -e delete $1 | while read line
+do
+	# Modify this to the path to site-compiler
+	python3 ~/dev/site-compiler/site-compiler.py $1
+done
